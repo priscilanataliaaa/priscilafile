@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning HTML Tables </title>
+    <link rel="icon" type="image/x-icon"
+    href="favicon.ico">
+</head>
+<body>
+<h1>Student records</h1>
+<table border="1"> //border is an atribute that make colloum have raw //th is for make the word bold(tebal) // tr is for table row
+    <tr>
+        <th>Num.</th>
+        <th colspan="2">NIM/Name.</th>
+        <th>Status</th>
+        <th>Attendance</th>
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>123</td>
+        <td>Ina</td>  
+        <td>Inside</td>
+        <td rowspan="2">Present</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>301</td>
+        <td>Jeslyn</td>  
+        <td>Outside</td>
+
+    </tr>
+    <tr>
+        <td>3.</td>
+        <td>345</td>
+        <td>Sarah</td>  
+        <td rowspan="2">Absent</td>
+        <td>Present</td>
+
+    </tr>
+    <tr>
+        <td>4.</td>
+        <td>289</td>
+        <td>Siti</td>  
+        <td>Outside</td>
+
+    </tr>
+    <tr>
+        <td>5.</td>
+        <td>215</td>
+        <td>Eja</td>  
+        <td>Inside</td>
+        <td>Present</td>
+
+    </tr>
+
+    <table border="1"> 
+        <br>
+        <br>
+
+        <tr>
+            <td colspan="2">A</td>
+            <td colspan="2">B</td>
+        </tr>
+        <tr>
+            <td colspan="3">C</td>
+            <td rowspan="3">D</td>
+        </tr>
+        <tr>
+            <td rowspan="2">E</td>
+            <td>F</td>
+            <td>G</td>
+        </tr>
+        <tr>
+            <td colspan="2">H</td>
+        </tr>
+</table>
+</body>
+</html>
