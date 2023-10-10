@@ -1,0 +1,30 @@
+.special{
+    font-family: 'Sofia';
+}
+.one{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    margin-left: 75px;
+}
+.two{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: right;
+    letter-spacing: 3px;
+}
+.three{
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+    width: 626px;
+    height: 300px;
+    border-radius: 20px;
+    margin: auto;
+}
+.love{
+    font-family: 'Rochester';
+    font-size: 75px;
+}
