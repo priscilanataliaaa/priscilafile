@@ -1,0 +1,27 @@
+table, th, td {
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 45px;
+    background-color: green;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: yellow;
+}
