@@ -30,6 +30,11 @@ nav ui li :hover {
     font-weight: bolder;
 }
 
+#main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 footer {
     background-color: #dedede;
     text-align: center;
