@@ -29,3 +29,10 @@ nav ui li :hover {
     color: yellow;
     font-weight: bolder;
 }
+
+footer {
+    background-color: #dedede;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #343434 ;
+}
