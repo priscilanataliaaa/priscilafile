@@ -31,8 +31,22 @@ nav ui li :hover {
 }
 
 #main-container {
+    margin-top: 25px;
     display: flex;
     justify-content: space-around;
+}
+
+#main-container div {
+    width: 30%;
+}
+
+main img {
+    width: 100%;
+}
+#main-container div img {
+   width: 100%;
+   margin-top: 15px;
+   margin-bottom: 20px;
 }
 
 footer {
