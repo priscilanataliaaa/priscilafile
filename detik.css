@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color:white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+.search-box {
+    flex: 1;
+    margin: 0 20px;
+    text-align: center;
+    border-radius: 1000px;
+    border: 25px;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 5px;
+}
+
+ul.login-button {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.login-button li {
+    display: inline;
+    margin-right: 20px;
+    border-radius: 1000px;
+}
+
+ul.login-button li:last-child {
+    margin-right: 0;
+}
+
+ul.login-button li a {
+    background-color: #f0f0f0;
+    color: darkblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.login-button li a :hover{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+   
+}
+
+.ad {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.ad img {
+    max-width: 100%;
+}
+
+ img {
+    width: 20%;
+    text-align: left;
+}
+.firstnav {
+    background-color: purple;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: auto;
+}
+
+.firstnav a{
+    text-decoration: none;
+    color: white;
+    outline: none; 
+}
+
+.firstnav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.firstnav ul li :hover {
+    color: yellow;
+    font-weight: bolder;
+}
+
+.secondnav {
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    font-weight: bolder;
+    margin-bottom: auto;
+}
+
+.secondnav a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+.secondnav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+.secondnav ul li :hover {
+    color: purple;
+    font-weight: bolder;
+}
+
+#main-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-container div {
+    width: 30%;
+}
+
+main img {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+#left-column {
+    width: 80%;
+    overflow: auto;
+    text-align: center;
+}
+
+#left-column h1 {
+    color: purple;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+#left-column h5 {
+    color: #333;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+#left-column h6 {
+    color: #343434;
+    padding: 10px ;
+}
+
+#left-column p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+#right-column {
+    width: 20%;
+    overflow: auto;
+    background-color: white;
+}
+
+#right-column h3 {
+    color: purple;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+#right-column p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#toggle-button {
+    background-color: #dedede;
+    color: purple;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#content {
+    display: none; 
+}
+
+footer {
+    background-color: #dedede;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #343434 ;
+}
+
+#footer-container {
+   display: flex;
+   justify-content: space-around;
+}
+
+#footer-container ul {
+    list-style-type: none;
+}
+
+#copyright {
+    border-top: 1px solid #343434;
+    text-align: left;
+    padding: 20px;
+}
