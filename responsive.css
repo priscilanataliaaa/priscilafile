@@ -9,12 +9,20 @@ header {
     background-color: #cdcdcd;
     text-align: center;
     padding: 40px;
-    
+
 }
 
+main  {
+ display: flex;
+}
+
+main img {
+    width: 100%;
+}
 footer {
     background-color: #565656;
     color: white;
     padding: 20px;
     text-align: center;
 }
+
