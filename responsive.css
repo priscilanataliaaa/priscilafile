@@ -13,12 +13,24 @@ header {
 }
 
 main  {
- display: flex;
+ display: flex; 
+ flex-direction: row; /* default */
+ gap: 20px;
 }
 
 main img {
     width: 100%;
 }
+
+@media (max-width:576px ){
+    main {
+        flex-direction: column;
+    }
+    header h1 {
+        color: aqua;
+    }
+}
+
 footer {
     background-color: #565656;
     color: white;
