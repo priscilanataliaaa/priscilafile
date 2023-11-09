@@ -35,8 +35,39 @@
        }
 
        document.write((2,3));
-       
+
        console.log(add(1, 3));
+
+       console.log(add(x, y));
+
+       function multiply(x, y){
+        return x * y;
+       }
+
+       console.log(multiply(4, 5));
+
+       document.write("<br><br>")
+
+       function divine(c, d, e, f){
+        return c / d / e / f;
+       }
+
+       console.log(divine(1, 2, 3, 4));
     </script>
+
+    <br><br>
+    <h3>Type your name</h3>
+    Name : <input type="text" id="name">
+    <button onclick="showName()">Send</button>
+
+    <p id="np"></p>
+
+    <script>
+        function showName(){
+            let name = document.getElementById("name").value;
+            document.getElementById("np").innerHTML = "Your name is " + name;
+        }
+    </script>
+
 </body>
 </html>
