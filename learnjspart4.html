@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JS part 4</title>
+</head>
+<body onload="functionOnload()">
+    <h1>Learn JS part 4</h1>
+
+    <button onclick="functionClick()">Click me!</button>
+
+    <button onmouseover="functionHover()">Hover over me...</button>
+
+    <button onmouseout="functionOut()">Hover away from me...</button>
+
+    <br><br>
+
+    Name : <input type="text" id="name" onkeydown="functionKeydown()">
+
+    <!-- <button onkeydown="functionKeydown()">Pushes me down on your keyboard...</button> -->
+
+    <!-- <button onload="functionOnload()">Your loading has finished...</button> -->
+
+    <script>
+        function functionClick(){
+            alert("Hi! You Clicked the button!");
+        }
+
+        function functionHover(){
+            console.log("Hi, you hover over the button");
+        }
+
+        function functionOut(){
+            alert("Now you away from me:(");
+        }
+
+        // function functionKeydown(){
+        //     alert("Yeay! you pushes me");
+        // }
+
+        function functionKeydown(){
+            console.log("You pressed a key");
+            document.getElementById("name").style.borderColor = "red";
+        }
+
+        function functionOnload(){
+            alert("Welcome to my website");
+        }
+    </script>
+</body>
+</html>
