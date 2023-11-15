@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  let email = document.forms["myForm"]["email"].value;
+  let username = document.forms["myForm"]["username"].value;
+  let password = document.forms["myForm"]["password"].value;
+  let gender = document.forms["myForm"]["gender"].value;
+  let religion = document.forms["myForm"]["religion"].value;
+  let address = document.forms["myForm"]["address"].value;
+  let hobbies = document.forms["myForm"]["hobbies"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  } else if(email == ""){
+    alert("Email must be filled out")
+    return false;
+  }else if(username == ""){
+    alert("Username must be filled out")
+    return false;
+  }else if(password == ""){
+    alert("Please add your password")
+    return false;
+  }else if(gender == ""){
+    alert("Please choose your gender")
+    return false;
+  }else if(religion == ""){
+    alert("Please choose your religion")
+    return false;
+  }else if(address == ""){
+    alert("Address must be filled out")
+    return false;
+  }else if( hobbies == ""){
+    alert("Please, at least choose one hobbies")
+    return false;
+  } else {
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+
+<h2>JavaScript Validation</h2>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Name  : <input type="text" name="fname"><br><br>
+  Email : <input type="text" name="email"><br><br>
+  Username : <input type="text" name="username"><br><br>
+  Password : <input type="password" name="password"><br><br>
+  Gender : <input type="radio" name="radio" id="gender">Male
+  <input type="radio" name="radio" id="gender">Female<br><br>
+  Religion : <select name="select-box" id="religion">
+      <option value="0">Select Religion:</option>
+      <option value="1">Christian</option>
+      <option value="2">Islam</option>
+      <option value="3">Advent</option>
+      <option value="4">Chatolic</option>
+      <option value="5">Hinduism</option>
+  </select> <br><br>
+  Address : <textarea name="subject" id="address" cols="30" rows="10"></textarea><br>
+  Hobbies : <input type="checkbox" name="checkbox" id="hobbies">Dancing
+  <input type="checkbox" name="checkbox" id="hobbies">Drawing
+  <input type="checkbox" name="checkbox" id="hobbies">Singing
+  <input type="checkbox" name="checkbox" id="hobbies">Swimming
+  <input type="checkbox" name="checkbox" id="hobbies">Reading <br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
