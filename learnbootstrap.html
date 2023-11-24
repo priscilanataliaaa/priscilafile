@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Bootstrap</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    
+    <div class="container-fluid">
+     <div class="row">
+        <div class="col-sm-2 bg-light text-primary">
+            <button class="btn btn-primary" type="button">Login</button>
+            <button class="btn btn-danger" type="button">Delete</button>
+        </div>
+        <div class="col-sm-8 bg-warning text-success">
+            <p class="h1 text-uppercase">Welcome</p>
+            <p class="display-1">Display text 1</p>
+            <table class="table table-striped">
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+                <tr class="table-success">
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@unai.edu</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@unai.edu</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@unai.edu</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-sm-2 bg-info text-danger">
+            <img class="img-fluid rounded-circle" src="kucing oyen.jpeg" alt="cat image"/>
+            <img class="img-fluid rounded" src="kucing oyen.jpeg" alt="cat image"/>
+            <img class="img-fluid img-thumbalid" src="kucing oyen.jpeg" alt="cat image"/>
+        </div>
+    </div>
+ </div>
 </body>
 </html>
